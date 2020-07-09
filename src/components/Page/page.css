@@ -1,0 +1,16 @@
+.page {
+  margin-left: 250px;
+}
+
+.page .page-title {
+  background-color: #CCCCCC;
+  color: #222222;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page .page-content {
+  padding: 1em;
+}

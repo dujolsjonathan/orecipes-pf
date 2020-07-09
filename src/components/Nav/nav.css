@@ -1,0 +1,25 @@
+.navigation {
+  width: 250px;
+  background: rgb(236, 232, 223);
+  border-right: 4px solid #CCCCCC;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  padding-top: 1em;
+}
+
+.navigation .navigation-item {
+  display: block;
+  margin: 0.5em 1.5em;
+  color: #222222;
+  cursor: pointer;
+}
+
+.navigation .navigation-item:hover {
+  color: #777777;
+}
+
+.navigation .navigation-item-active {
+  color: #F18042;
+  font-weight: bold;
+}

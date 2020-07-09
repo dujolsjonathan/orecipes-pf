@@ -1,0 +1,29 @@
+.recipes-small {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.recipe-small, .recipe-small img {
+  width: 300px;
+}
+
+.recipe-small img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.recipe-small {
+  border: 1px solid #CCCCCC;
+  border-radius: 15px;
+  margin: 25px;
+}
+
+.recipe-small .recipe-small-content {
+  padding: 1em;
+}
+
+.recipe-small a {
+  color: #F18042;
+  font-weight: bold;
+  cursor: pointer;
+}
